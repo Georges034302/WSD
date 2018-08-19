@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.uts.edu.au/31284/wsd-users"
+    xmlns="http://www.uts.edu.au/31284/wsd-users"
+    elementFormDefault="qualified">
+    
+    <xs:simpleType name="passwordType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([A-Za-z]{6,})(\d{2,})"/>
+        </xs:restriction>        
+    </xs:simpleType>
+      
+    <xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\(((0)[1-9])\)(\s)(\d{4}-[0-9]{4})"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="users">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="email" type="xs:string"/>
+                            <xs:element name="password" type="passwordType"/>
+                            <xs:element name="phone" type="phoneType"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+

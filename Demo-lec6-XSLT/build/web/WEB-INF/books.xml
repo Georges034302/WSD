@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl/books.xsl"?>  
+<books>
+    <book>
+        <title>The Lord of the Rings</title>
+        <genre>Epic</genre>
+        <number>3556</number>
+        <rating>10</rating>
+        <status>available</status>
+    </book>    
+    <book>
+        <title>The Avengers</title>
+        <genre>Sci-Fi</genre>
+        <number>2321</number>
+        <rating>8</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Friday 13th</title>
+        <genre>Horror</genre>
+        <number>5666</number>
+        <rating>6</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Gone Girl</title>
+        <genre>Thriller</genre>
+        <number>4009</number>
+        <rating>7</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>The Matrix</title>
+        <genre>Sci-Fi</genre>
+        <number>3888</number>
+        <rating>8</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Carrie</title>
+        <genre>Horror</genre>
+        <number>3446</number>
+        <rating>6</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>The God Father</title>
+        <genre>Drama</genre>
+        <number>4881</number>
+        <rating>9</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Halloween</title>
+        <genre>Horror</genre>
+        <number>8112</number>
+        <rating>8</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Mistic River</title>
+        <genre>Drama</genre>
+        <number>2785</number>
+        <rating>5</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Master and Commander</title>
+        <genre>Thriller</genre>
+        <number>4332</number>
+        <rating>7</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Hobbit</title>
+        <genre>Epic</genre>
+        <number>3768</number>
+        <rating>8</rating>
+        <status>available</status>
+    </book>
+</books>
+

@@ -1,0 +1,120 @@
+body{
+    background-color: #AED6F1;   
+}
+h1{
+    color: #933680;
+    font-weight: bold;
+}
+.time{    
+    color: #E67E22;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+.error{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    text-shadow: 1px 1px 1px black, 0 0 10px blue, 0 0 3px cyan;
+}
+
+.outline{
+    color: #933680;
+    font-weight: bold;
+}
+
+.link{
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account_table{                
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #E67E22;
+    width: fit-content;
+}
+.account_table thead{
+    text-align: center;
+    font-weight: bold;
+}
+.account_table td{
+    width: fit-content;
+    border: 1px solid black;     
+    padding: 2px;
+    width:10%;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 10px; 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.div_search, .results_table{
+    vertical-align: top;
+}
+
+.div_search{
+    display: block;          
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: #10802c;    
+    color: white;  
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    /*
+    top: -50%;
+    left: 60%;
+    transform: translate(70%, -50%)
+    */
+}
+.results_table{
+    display: block; 
+    width: auto;    
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color:#ffff00;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    top: 22%;
+    right: 8%;
+    border: 2px solid #17b755;
+    padding: 5px;
+}
+.results_table th{
+    color: white;
+    text-align: center;
+}
+.results_table thead{
+    background-color:#4CAF50;
+}
+.results_table td{
+    text-align: left;
+    width: fit-content;
+}
