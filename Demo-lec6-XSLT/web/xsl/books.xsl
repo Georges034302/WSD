@@ -13,7 +13,7 @@
         </html>
     </xsl:template>
     <xsl:template match="books" >
-        <table class="results_table">
+        <table>
             <thead>
                 <tr>
                     <th>Title</th>

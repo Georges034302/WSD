@@ -15,6 +15,7 @@
             <tr style="background-color: #7f9fc4;" ><td align="right" class="outline">You are logged in as  <%=log%></td></tr>
             <tr><td align="right">
                     <%if (student != null) { %>
+                    
                     <u><a class="link" href="edit_user.jsp">Account</a></u> 
                         <%} else { %>
                     <u><a class="link" href="register.jsp">Register</a></u>

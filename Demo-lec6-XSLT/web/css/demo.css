@@ -32,21 +32,26 @@ h1{
     font-weight: bold;
     font-size: 18px;
 }
-.account_table{                
+.account_table{      
     border-collapse: collapse;
-    border: 1px solid black;
-    background-color: #E67E22;
-    width: fit-content;
+    border: 1px solid black;    
+    width: 44%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 16px;    
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:#ffff00;
 }
 .account_table thead{
+    background-color: #E67E22;
+    color:#ffff00;
     text-align: center;
     font-weight: bold;
 }
-.account_table td{
-    width: fit-content;
+.account_table td{    
     border: 1px solid black;     
-    padding: 2px;
-    width:10%;
+    padding: 5px;
+    width:fit-content;    
 }
 
 .button {
@@ -76,8 +81,7 @@ h1{
     vertical-align: top;
 }
 
-.div_search{
-    display: block;          
+.div_search{              
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: large;
@@ -86,35 +90,33 @@ h1{
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     position: absolute;
     top: 15%;
-    right: 3%;
+    left: 80%;
     /*
     top: -50%;
     left: 60%;
     transform: translate(70%, -50%)
     */
 }
-.results_table{
-    display: block; 
-    width: auto;    
+.results_table{       
+    border-collapse: collapse;       
+    width: fit-content;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
-    font-size: large;
-    color:#ffff00;
+    font-size: 16px;    
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    position: absolute;
+    color:#ffff00;
+    position: fixed;
     top: 22%;
-    right: 8%;
-    border: 2px solid #17b755;
-    padding: 5px;
+    left: 68%;
+    border: 1px solid black;   
 }
-.results_table th{
-    color: white;
+.results_table thead{    
+    background-color: #E67E22;
+    color:#ffff00;
     text-align: center;
+    font-weight: bold; 
 }
-.results_table thead{
-    background-color:#4CAF50;
-}
-.results_table td{
-    text-align: left;
-    width: fit-content;
+.results_table td{      
+    width:fit-content;          
+    padding: 8px;
 }

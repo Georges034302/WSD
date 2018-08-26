@@ -9,8 +9,6 @@
 <%Books books = booksApp.getBooks();%>
 <%        
     String genre = request.getParameter("genre");
-    String title = request.getParameter("title");
-    String status = request.getParameter("status");
     ArrayList<Book> matches = books.getMatches(genre);   
 %>
 <books>

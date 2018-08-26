@@ -9,9 +9,8 @@
     <body>
         <form class="div_search" action="main.jsp" method="post" target="_self" >
             <table>                
-                <tr><td>Title:</td><td><input type="text" name="title"></td>
+                <tr>
                     <td>Genre:</td><td><input type="text" name="genre"></td>    
-                    <td>Status:</td><td><input type="text" name="status"></td>                     
                     <td><input class="button" type="submit" value="Search"></td>
                 </tr>
             </table>

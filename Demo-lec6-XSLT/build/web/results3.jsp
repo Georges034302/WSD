@@ -9,11 +9,9 @@
 <%
     XMLGenerator generator = new XMLGenerator();
     String genre = request.getParameter("genre");
-    String title = request.getParameter("title");
-    String status = request.getParameter("status");
     ArrayList<Book> matches = books.getMatches(genre);
     Books matchingBooks = new Books();
     matchingBooks.addAll(matches);
-    generator.renderHTML(matchingBooks, out);
+    generator.renderHTML(matchingBooks, out);    
 %>
 

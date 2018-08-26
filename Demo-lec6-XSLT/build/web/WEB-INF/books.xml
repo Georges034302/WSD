@@ -73,9 +73,44 @@
     </book>
     <book>
         <title>Hobbit</title>
-        <genre>Epic</genre>
+        <genre>History</genre>
         <number>3768</number>
         <rating>8</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Anzac History</title>
+        <genre>History</genre>
+        <number>6668</number>
+        <rating>8</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>The Bridge</title>
+        <genre>Epic</genre>
+        <number>3700</number>
+        <rating>7</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>Keating</title>
+        <genre>History</genre>
+        <number>9908</number>
+        <rating>6</rating>
+        <status>available</status>
+    </book>
+    <book>
+        <title>The Crown</title>
+        <genre>History</genre>
+        <number>3001</number>
+        <rating>7</rating>
+        <status>available</status>
+    </book>
+     <book>
+        <title>The Way of Kings</title>
+        <genre>Epic</genre>
+        <number>6549</number>
+        <rating>5</rating>
         <status>available</status>
     </book>
 </books>
