@@ -34,7 +34,7 @@
         %>
         <div class="div_search"><jsp:include page="search.jsp" flush="true"/></div>
         <% if (genre != null && !genre.isEmpty()) { %>
-        <div class="results_table"><jsp:include page="results2.jsp" flush="true"/></div>
+        <div class="results_table"><jsp:include page="results3.jsp" flush="true"/></div>
         <% } %>                
         <%} else { %>
         <p class="outline" style="text-align: center;">Welcome Guest Student</p>
