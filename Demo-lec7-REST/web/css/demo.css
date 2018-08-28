@@ -1,0 +1,122 @@
+body{
+    background-color: #AED6F1;   
+}
+h1{
+    color: #933680;
+    font-weight: bold;
+}
+.time{    
+    color: #E67E22;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    right: 0;
+}
+
+.error{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    text-shadow: 1px 1px 1px black, 0 0 10px blue, 0 0 3px cyan;
+}
+
+.outline{
+    color: #933680;
+    font-weight: bold;
+}
+
+.link{
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 18px;
+}
+.account_table{      
+    border-collapse: collapse;
+    border: 1px solid black;    
+    width: 44%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 16px;    
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:#ffff00;
+}
+.account_table thead{
+    background-color: #E67E22;
+    color:#ffff00;
+    text-align: center;
+    font-weight: bold;
+}
+.account_table td{    
+    border: 1px solid black;     
+    padding: 5px;
+    width:fit-content;    
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 10px; 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.div_search, .results_table{
+    vertical-align: top;
+}
+
+.div_search{              
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: #10802c;    
+    color: white;  
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    /*
+    top: -50%;
+    left: 60%;
+    transform: translate(70%, -50%)
+    */
+}
+.results_table{       
+    border-collapse: collapse;       
+    width: fit-content;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 16px;    
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color:#ffff00;
+    position: fixed;
+    top: 22%;
+    left: 68%;
+    border: 1px solid black;   
+}
+.results_table thead{    
+    background-color: #E67E22;
+    color:#ffff00;
+    text-align: center;
+    font-weight: bold; 
+}
+.results_table td{      
+    width:fit-content;          
+    padding: 8px;
+}
