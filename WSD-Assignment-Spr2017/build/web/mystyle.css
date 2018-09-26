@@ -1,0 +1,235 @@
+body {
+    background-image: url("feit2.jpg");
+    background-color: #00ccff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size:100% 100vh;
+}
+.title{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: left;
+
+}
+.time{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #10802c;
+    float: right;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.link{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: large;
+    color: #33ff66;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px cyan;
+
+}
+.header{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #003399;
+}
+.small_header{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #003399;
+}
+.float {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: relative;
+    -webkit-animation: myfirst 5s linear 2s infinite alternate; 
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes myfirst {
+    to   { left:0px; top:0px;}
+    from  {left:220px; top:0px;}
+
+}
+
+@keyframes myfirst {
+    to   {left:0px; top:0px;}
+    from  {left:220px; top:0px;}
+
+}
+.table_register{ 
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #33ff66;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px cyan;
+    text-align: center;
+}
+
+input{
+    background-color: #66ccff;
+    font-size: 15px;
+    color: #ffff00;
+    font-weight: bold;
+}
+select{
+    background-color: #66ccff;
+    font-size: 15px;
+    color: #ffff00;
+    font-weight: bold;
+}
+option{
+    background-color: #66ccff;
+    font-size: 15px;
+    color: #ffff00;
+    font-weight: bold;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: x-large;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px cyan;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 10px; 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+span{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:red;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px cyan;
+}
+.div_form{
+    display: block;
+    text-align: center;
+}
+.form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.main_table{
+    width: 100%;
+}
+.log{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: #10802c;
+    float: right;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.div_search{
+    display: block;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: #10802c;    
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.results_table{
+    width: 50%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color:#ffff00;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.results_table th{
+    color: white;
+}
+.results_table thead{
+    background-color:#4CAF50;
+}
+.results_table tr{
+    width: 50%;
+}
+.results_table td{
+    text-align: left;
+}
+
+.bookings_table{
+    width: 50%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color:#ffff00;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.bookings_table th{
+    color: white;
+}
+.bookings_table thead{
+    background-color:#4CAF50;
+}
+.bookings_table tr{
+    width: 30%;
+}
+.bookings_table td{
+    text-align: left;
+    text-align: center;
+    width: 25%;
+}
+
+.date:invalid+span:after{
+    content: '✖';
+    padding-left: 5px;
+}
+.date:valid+span:after{
+    content: '✓';
+    padding-left: 5px;
+}
+
+.booking_form_div{
+        display: block;
+        text-align: center;
+}
+.booking_form_div form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}

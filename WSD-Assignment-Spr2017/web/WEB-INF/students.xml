@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <email>neuer@uts.com</email>
+        <name>Manuel Nueur</name>
+        <password>blahblah123</password>   
+        <dob>1988-03-23</dob>
+        <type>student</type>
+    </student>
+    <student>       
+        <email>Oli.khan@bloggs.com</email>
+        <name>Oliver Khan</name>
+        <password>footbarr123</password>     
+        <dob>1990-11-28</dob>
+        <type>student</type> 
+    </student>
+    <student>       
+        <email>muller@uts.com</email>
+        <name>Thomas Muller</name>
+        <password>jocker123</password>     
+        <dob>1990-11-28</dob>
+        <type>student</type> 
+    </student>
+    <student>       
+        <email>drexler@gmail.com</email>
+        <name>Julian Drexler</name>
+        <password>worldbest123</password>     
+        <dob>1990-11-28</dob>
+        <type>student</type> 
+    </student>
+    <student>       
+        <email>kroos@hotmail.com</email>
+        <name>Tony Kroos</name>
+        <password>happyfeet123</password>     
+        <dob>1990-11-28</dob>
+        <type>student</type> 
+    </student>
+</students>
