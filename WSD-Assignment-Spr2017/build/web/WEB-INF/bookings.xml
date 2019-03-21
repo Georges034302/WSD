@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookings>
+    <booking>
+        <ID>703</ID>
+        <tutorName>Steffen Reuter</tutorName>
+        <tutorEmail>Stefan@gmail.com</tutorEmail>
+        <studentName>Manuel Nueur</studentName>
+        <studentEmail>neuer@uts.com</studentEmail>
+        <subject>WSD</subject>
+        <status>cancelled</status>
+        <date>2018-09-26</date>
+    </booking>
+    <booking>
+        <ID>26</ID>
+        <tutorName>Jorgen Koller</tutorName>
+        <tutorEmail>Jorgen@bloggs.com</tutorEmail>
+        <studentName>Manuel Nueur</studentName>
+        <studentEmail>neuer@uts.com</studentEmail>
+        <subject>SEP</subject>
+        <status>active</status>
+        <date>2018-09-26</date>
+    </booking>
+</bookings>
