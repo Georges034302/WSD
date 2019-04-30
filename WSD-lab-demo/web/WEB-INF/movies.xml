@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movies.xsl"?>
+<store>    
+    <movies>
+        <movie>
+            <genre>Epic</genre>
+            <title>The Lord of the Rings</title>
+            <cdset>3</cdset>
+            <rating>9</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Mad Max</title>
+            <cdset>4</cdset>
+            <rating>5</rating>
+        </movie>
+        <movie>
+            <genre>Sci-fi</genre>
+            <title>The Avengers</title>
+            <cdset>2</cdset>
+            <rating>7</rating>
+        </movie>
+        <movie>
+            <genre>Horror</genre>
+            <title>Underworld</title>
+            <cdset>5</cdset>
+            <rating>6</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Indiana Jones</title>
+            <cdset>4</cdset>
+            <rating>7</rating>
+        </movie>
+        <movie>
+            <genre>Sci-fi</genre>
+            <title>The Matrix</title>
+            <cdset>3</cdset>
+            <rating>8</rating>
+        </movie>
+        <movie>
+            <genre>Horror</genre>
+            <title>Blade</title>
+            <cdset>3</cdset>
+            <rating>7</rating>
+        </movie>
+        <movie>
+            <genre>Comedy</genre>
+            <title>American Pie</title>
+            <cdset>4</cdset>
+            <rating>9</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Die Hard</title>
+            <cdset>5</cdset>
+            <rating>6</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Fast and Furious</title>
+            <cdset>8</cdset>
+            <rating>7</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Mission Impossible</title>
+            <cdset>5</cdset>
+            <rating>6</rating>
+        </movie>
+        <movie>
+            <genre>Horror</genre>
+            <title>Halloween</title>
+            <cdset>10</cdset>
+            <rating>5</rating>
+        </movie>
+        <movie>
+            <genre>Sci-fi</genre>
+            <title>Iron Man</title>
+            <cdset>3</cdset>
+            <rating>8</rating>
+        </movie>
+        <movie>
+            <genre>Sci-fi</genre>
+            <title>Terminator</title>
+            <cdset>5</cdset>
+            <rating>9</rating>
+        </movie>
+        <movie>
+            <genre>Action</genre>
+            <title>Transporter</title>
+            <cdset>4</cdset>
+            <rating>7</rating>
+        </movie>
+        <movie>
+            <genre>Epic</genre>
+            <title>Hobbit</title>
+            <cdset>3</cdset>
+            <rating>8</rating>
+        </movie>
+        <movie>
+            <genre>Comedy</genre>
+            <title>Rush Hour</title>
+            <cdset>3</cdset>
+            <rating>7</rating>
+        </movie>
+    </movies>
+</store>
